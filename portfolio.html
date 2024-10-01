@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0; 
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #936cdc;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;   
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style-type: none;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            padding: 10px;
+        }
+        nav ul li a:hover {
+            background-color: #824db8;
+            border-radius: 5px; 
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        #home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #fff; 
+        }
+        .name{
+            color:#824db8;
+            font-size: 40px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #9a43e6;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 20px;
+        }
+        .btn:hover {
+            background-color: #824db8;
+        }
+        .about-container {
+            display: flex;
+            justify-content: center;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
+            color: #fff;
+            background-color: #ae8af0;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .about-container p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #fff;
+            text-align: center;
+            max-width: 800px;
+        }
+        .profile-pic img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .about-content {
+            text-align: center; 
+        }
+        h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #824db8;
+        }
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .skills-container img {
+            width: 60px;
+            height: 60px;
+            margin: 10px;
+        }
+        .cert {
+            text-align: left;
+            font-size: 18px;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        .project {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 700px;
+            color: #333;
+        }
+         #projects .project h3 {
+            margin-bottom: 10px;
+            color: #936cdc;
+        } 
+        #contac {
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        #para{
+            text-align: center;
+            color:white;
+            background-color: #ae8af0;
+        }
+        .social-links img {
+            width: 20px;
+            height: 20px;
+        }
+        footer {
+            background-color: #936cdc;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contac">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="home">
+        <div class="profile-pic">
+            <img src="rinm.png" alt="Profile Picture">
+        </div>
+        <div class="about-content">
+            <h2 class="name">RINA RUKIYA A</h2>
+            <p class="title">Web Developer</p>
+            <a href="RINA_RUKIYA_A (2).pdf" class="btn" target="_blank">Resume</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>ABOUT</h2>
+        <div class="about-container">
+            <p id="para">I’m a web developer with a passion for creating websites that are both functional and user-friendly. I work with a range of technologies, including HTML, CSS, JavaScript, React, and back-end frameworks like Django and Node.js. My expertise in Django allows me to build robust, scalable web applications with a focus on performance and security.
+
+                I enjoy working on both front-end and back-end development, and I’m experienced in building full-stack web applications. With Django, I can efficiently manage databases, handle user authentication, and create dynamic content that meets the needs of clients and users.
+                
+                Problem-solving is at the heart of what I do, and I’m always learning new skills to stay current in the fast-paced world of web development. My goal is to deliver clean, efficient code while bringing creative ideas to life, ensuring each project is optimized for performance and user experience.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <div class="skills-container">
+            <img src="html.webp" alt="HTML">
+            <img src="css.png" alt="CSS">
+            <img src="javas.png" alt="JavaScript">
+            <img src="mysql.png" alt="MySQL">
+            <img src="python.jpg" alt="Python">
+            <img src="c.png" alt="C">
+            <img src="j.png" alt="Java">
+            <img src="django.png" alt="Django">
+            <img src="bootstrap.png" alt="bootstrap">
+            <img src="git.png" alt="git">
+            <img src="github.png" alt="github">
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>CERTIFICATIONS</h2>
+        <ul class="cert">
+            <li>Microsoft Certified: Azure AI Fundamentals</li>
+            <li>Certificate in Artificial Intelligence (MS - AI 900)</li>
+            <li>100 Days of Code: The Complete Python Pro Bootcamp - Udemy</li>
+            <li>Python and Data Mining Internship - ReverTech</li>
+            <li>Internship in Ethical Hacking - Pace Lab Pvt Ltd</li>
+            <li>Internship in Artificial Intelligence - Pace Lab Pvt Ltd</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <h3>Vision Tech - April 2024</h3>
+            <p>A currency,familiar person,emergency,ocr recognition application using Machine Learning.</p>
+            <p>Technologies used: HTML, CSS, Django, Python, MySQL, Machine Learning.</p>
+        </div>
+        <div class="project">
+            <h3>Meditech - May 2023</h3>
+            <p>A disease prediction website using Machine Learning.</p>
+            <p>Technologies used: HTML, CSS, Bootstrap, MongoDB.</p>
+        </div>
+        <div class="project">
+            <h3>Snake Game - Sep 2022</h3>
+            <p>A simple game to learn object-oriented programming concepts in Python.</p>
+        </div>
+        <div class="project">
+            <h3>Personal Information System - Sep 2022</h3>
+            <p>A simple HTML, CSS, and SQL project for understanding the fundamentals.</p>
+            <p>Technologies used: HTML, CSS, MySQL.</p>
+        </div>
+    </section>
+
+    <section id="contac">
+        <h2>CONTACT</h2>
+        <p class="cert1"><i class="fas fa-envelope"></i> rinaambali@gmail.com</p>
+        <p class="cert1"><i class="fas fa-phone"></i> +91 9846801515</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/rina-rukiya/" target="_blank"><img src="linked.png" alt="LinkedIn"></a>
+            <a href="#"><img src="t.png" alt="Twitter"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Rina Rukiya A. All rights reserved.</p>
+    </footer>
+</body>
+</html>
